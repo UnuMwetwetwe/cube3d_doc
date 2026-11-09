@@ -1,0 +1,1 @@
+[Cool raycasting concept guide](https://lodev.org/cgtutor/raycasting.html). It explains the maths pretty simply and shows visual examples.s
