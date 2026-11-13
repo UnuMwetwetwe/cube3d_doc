@@ -1,1 +1,2 @@
 [Cool raycasting concept guide](https://lodev.org/cgtutor/raycasting.html). It explains the maths pretty simply and shows visual examples.s
+[Another insight on raycasting basics and history](https://xitog.github.io/dgx/passetemps/tech_raycasting_fr.html).
