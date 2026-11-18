@@ -26,10 +26,14 @@ This function will return the length (or magnitude) of the vector as a scalar. T
 This function simply inverts the given vector, which equates to multiplying its x and y values by -1.
 
 - vector operations :
-  - `t_vector vec_add(const t_vector *vec1, const t_vector *vec2);`
-  - `t_vector vec_sub(const t_vector *vec1, const t_vector *vec2);`
-  - `t_vector vec_mult(const t_vector *vec, double multiplier);`
-  - `t_vector vec_div(const t_vector *vec, double divisor);`
+  - `t_vector vec_add(t_vector *vec1, const t_vector *vec2);`
+     This function adds vec2 to vec1, stores the result in vec1 and returns vec1.
+  - `t_vector vec_sub(t_vector *vec1, const t_vector *vec2);`
+	 This function substracts vec2 to vec1, stores the result in vec1 and returns it.
+  - `t_vector vec_mult(t_vector *vec, double multiplier);`
+	 This function multiplies vec1 and vec2, stores the result in vec1 and returns vec1.
+  - `t_vector vec_div(t_vector *vec, double divisor);`
+     This function multiplies vec1 and vec2, stores the result in vec1 and returns it.
 
 - `double vec_angle(const t_vector *vec);`
 This function returns the angle of the vector compared to the x axis.

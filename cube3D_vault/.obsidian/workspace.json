@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Raycasting/0_Vectors.md",
+                "file": "00_Main Concepts/Work split.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0_Vectors"
+              "title": "Work split"
             }
           }
         ],
@@ -233,8 +233,8 @@
   },
   "active": "e37c7d9a3d9675e9",
   "lastOpenFiles": [
-    "00_Main Concepts/Ressources.md",
     "01_Raycasting/0_Vectors.md",
+    "00_Main Concepts/Ressources.md",
     "01_Raycasting",
     "00_Main Concepts/Work split.md",
     "file:/home/aldecour/Documents/Git Perso/cube3d/spher4d/README.md",
