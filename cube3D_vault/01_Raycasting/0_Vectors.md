@@ -17,10 +17,10 @@ This function will put a vector as a string, to facilitate debugging.
 The string shall be formatted this way : `(<x>,<y>)`
 
 - `double vec_len(const t_vector *vec);`
-This function will return the length (or magnitude) of the vector as a scalar.
+This function will return the length (or magnitude) of the vector as a scalar. In case of overflow, vec_len() will return DBL_MAX.
 
 - `double vec_len_sqrd(const t_vector *vec);`
-This function will return the length (or magnitude) of the vector as a scalar. This should be faster since calculating square roots is expensive, but idk yet if this function will find a use in spher4d.
+This function will return the length (or magnitude) of the vector as a scalar. In case of overflow, vec_len_sqrd() will return DBL_MAX. This should be faster since calculating square roots is expensive, but idk yet if this function will find a use in spher4d.
 
 - `t_vector vec_invert(const t_vector *vec);`
 This function simply inverts the given vector, which equates to multiplying its x and y values by -1.
