@@ -28,7 +28,7 @@ The best idea it to simply get the angle of the vector you wanna rotate and the 
 Yeepee !
 That should look like sum like that:
 ![[Pasted image 20261121221915.png]]
-B being the new angle, which will be our rotation speed.\
+B being the new angle, which will be our rotation speed.
 
 Or in pseudo code:
 ```
@@ -36,6 +36,11 @@ double oldDirX = dirX;
 dirX = cos(rotSpeed) * dirX - sin(rotSpeed) * dirY;
 dirY = sin(rotSpeed) * oldDirX + cos(rotSpeed) * dirY;
 ```
+Or with `cos( -rotSpeed)` to rotate in Le other way.
+
+**/!\ Important Note ! /!\\**
+rotSpeed here is in radians/frame, which may cause problems when said frames are irregular.
+The player movement speed should probably be in squares/seconds or some way to keep it peasy.
 # Implementation
 
 
