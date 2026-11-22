@@ -33,7 +33,7 @@ This function simply inverts the given vector, which equates to multiplying its 
   - `t_vector vec_mult(t_vector *vec, double multiplier);`
 	 This function multiplies vec1 and vec2, stores the result in vec1 and returns vec1.
   - `t_vector vec_div(t_vector *vec, double divisor);`
-     This function multiplies vec1 and vec2, stores the result in vec1 and returns it.
+     This function divides vec1 by divisor, stores the result in vec1 and returns it.
 
 - `double vec_angle(const t_vector *vec);`
 This function returns the angle of the vector compared to the x axis.
