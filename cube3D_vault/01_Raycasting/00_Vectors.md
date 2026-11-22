@@ -2,8 +2,8 @@ Vectors are mathematical objects that are able to represent quantities that have
 ```
 typedef struct s_vector
 {
-	long       x;
-	long       y;
+	double     x;
+	double     y;
 }              t_vector;
 ```
 Lets not forget that our coordinates system will have the y axis reversed from the traditional cartesian coordinates system.
